@@ -1,0 +1,39 @@
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<form action="action_page.php" style="border:1px solid #ccc">
+<div class="container">
+
+  <h1>Sign Up Form Example</h1>
+   
+    <hr>
+    
+     <label type="text"><b>Name</b></label>
+     <input type="text" placeholder="Enter name" name="name" required>
+
+     <label type="text"><b>organization</b></label>
+     <input type="text" placeholder="Enter name" name="name" >
+
+     <label for="email"><b>Email</b></label>
+     <input type="text" placeholder="Enter Email" name="email" required>
+
+     <label for="psw"><b>Password</b></label>
+     <input type="password" placeholder="Enter Password" name="psw" required>
+
+     <label for="psw-repeat"><b>Repeat Password</b></label>
+     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+     <div class="clearfix">
+     <p id="demo">click to submit.</p>
+     <button type="submit" class="signupbtn" onclick='document.getElementById("demo").innerHTML = "congratulation you are now signed up!"'>Submit</button>
+     
+     
+     </div>
+</div>
+</form>
+<script src="ja.js"></script>
+</body>
